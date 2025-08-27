@@ -12,8 +12,10 @@ public class CloneArray
         originStr1[1]="파스타";
         originStr2[2]="돈가스";
 
-        System.out.println(Arrays.toString(originStr1));
-        System.out.println(Arrays.toString(originStr2));
+        System.out.print(Arrays.toString(originStr1));
+        System.out.println("\t"+originStr1);
+        System.out.print(Arrays.toString(originStr2));
+        System.out.println("\t"+originStr2);
 
         //
         String[] originStr3={"하나","두","세","네","다서"};
@@ -22,7 +24,9 @@ public class CloneArray
         originStr3[2]="fuck";
         cloneStr[3]="fuck";
 
-        System.out.println(Arrays.toString(originStr3));
-        System.out.println(Arrays.toString(cloneStr));
+        System.out.print(Arrays.toString(originStr3));
+        System.out.println("\t"+originStr3);
+        System.out.print(Arrays.toString(cloneStr));
+        System.out.println("\t"+cloneStr);
     }
 }
