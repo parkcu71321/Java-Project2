@@ -7,6 +7,7 @@ public class JFrameTest extends JFrame
     public JFrameTest()
     {
         setTitle("처음 만드는 프레임");             //제목
+        setDefaultCloseOperation(EXIT_ON_CLOSE);        //프로그램 종료
         setSize(400,400);           //화면의 크기
         setVisible(true);                   //화면에 보이기 위해 사용
         setLocation(-10,0);             //화면이 처음 나오는 위치
