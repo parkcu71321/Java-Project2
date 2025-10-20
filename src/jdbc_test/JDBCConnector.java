@@ -2,7 +2,7 @@ package jdbc_test;
 
 import java.sql.*;
 
-public class JdbcConnector
+public class JDBCConnector
 {
     private static final String DRIVER_PATH = "oracle.jdbc.driver.OracleDriver";        //오라클 jdbc 드라이버의 경로
     private static final String URL = "jdbc:oracle:thin:@localhost:1521/xe";        //DB 연결 주소
